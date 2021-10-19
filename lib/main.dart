@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  'C#, flutter programmer, gamer and artist as hobby',
+                  'C#, flutter programmer, gamer and artist as a hobby',
                   style: TextStyle(
                     fontSize: 18,
                   ),
