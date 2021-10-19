@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:usuario_ui/widget_numeros.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Container(
           padding: EdgeInsets.symmetric(horizontal: 48),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
                 'Jennifer Sarah',
@@ -92,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(
                 height: 16,
               ),
-              //NumbersWidget(),
+              NumerosWidget(),
               Divider(),
             ],
           ),
